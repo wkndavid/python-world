@@ -1,6 +1,6 @@
 # Operadores Aritméticos
 
-###################################################
+######################################################
 
 # Adição: +
 # Subtração: -
@@ -8,7 +8,7 @@
 # Divisão: /
 # Potência: **
 # Divisão Inteira: //
-# Resto da dicisão: %
+# Resto da divisão: %
 
 n = int(input('Digite um número de 0 a 10: '))
 n1 = int(input('Digite outro: '))
