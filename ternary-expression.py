@@ -1,3 +1,3 @@
 ###### Expression Conditional => Ternary Operator ######
-cond = str('validate')
-print(cond == 'validate'  and 'validate ok' or 'validate failure')
+data = str(input('What is your code ? Type here: '))
+print(data == 'developer'  and 'validate ok' or 'validate failure')
