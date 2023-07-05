@@ -1,5 +1,5 @@
 import pygame
 pygame.init()
-pygame.mixer.music.load('')
+pygame.mixer.music.load('Vintage Culture, Rooftime - I Will Find - Zuffo Remix.mp3')
 pygame.mixer.music.play()
-pygame.event.await()
+pygame.event.wait()

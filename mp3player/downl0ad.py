@@ -1,8 +1,9 @@
-import pytube from YouTube
+import pytube 
+from pytube import YouTube
 import os
-yt = YouTube(str('URL do vídeo: '))
-###### Extraindo áudio ######
-video = yt.streams.filter(only.audio=tTrue).first()
+yt = YouTube(str(input('URL do vídeo: ')))
+###### Extraindo áudio ######   
+video = yt.streams.filter(only_audio=True).first()
 ###### Salvando no diretório ######
 print('Qual destino? (/var/www/python-world/mp3player/download)')
 destination = str(input(">> "))
